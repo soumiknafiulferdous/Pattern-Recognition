@@ -11,7 +11,7 @@ Data is predicted successfully according to naive bayes algorithm.
 It has classified test dataset to it's desired classes according to train dataset considering the minimum distance.
 
 ## Perceptron Algorithm
-This algorithm is used for batch processing (many at a time) and single processing (one at a time) and the result is showed in a graph.
+This algorithm is used for batch processing (many at a time) and single processing (one at a time) and result is showed in a graph.
 
 ## Minimum Error Rate Classifier
 A minimum error rate classifier for a two class problem has been designed considering they follow the normal distribution.
