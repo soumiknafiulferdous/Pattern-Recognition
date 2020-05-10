@@ -16,7 +16,7 @@ from the same class should have the same color and marker. Then, observe if thes
 
 ## Minimum Error Rate Classifier
 
-A minimum error rate classifier for a two-class problem has been designed considering they follow the normal distribution. At first, classify the sample points from 'test.txt' and the classified samples should have different colored markers according to the assigned class label. Then draw a figure which should include the corresponding probability distribution function along with its contour. At last, draw the decision boundary.
+A minimum error rate classifier for a two-class problem has been designed considering they follow the normal distribution. At first, classify the sample points from 'test.txt' and the classified samples should have different colored markers according to the assigned class label. Then draw a figure which should include the corresponding probability distribution function along with its contour. At last, draw the decision boundary. Here, library function is not used for calculating values from normal distribution. For classified samples, different colored markers are used according to the assigned class label. 
 
 ## K-Nearest Neighbors (KNN) 
 
