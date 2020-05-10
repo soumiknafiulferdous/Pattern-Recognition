@@ -1,8 +1,6 @@
 # Pattern Recognition
 
-These classifiers are mainly used for data vizualizatiin, manipulation and plotting.
-
-Several data sets are used for training and testing the models. Data are plotted in the graph to figure out the result of testing in comparison with training in an organized way.
+These classifiers are mainly used for data vizualizatiin, manipulation and plotting. Several data sets are used for training and testing the models. Data are plotted in the graph to figure out the result of testing in comparison with training in an organized way.
 
 ## Naive Bayes Algorithm 
 Data is predicted successfully according to naive bayes algorithm.
