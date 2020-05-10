@@ -19,5 +19,5 @@ A minimum error rate classifier for a two class problem has been designed consid
 ## K-Nearest Neighbors (KNN) 
 Datasets are classified accurately based on this algorithm where user can input the nearest neighbor count so that datasets are classified according to the number of nearest neighbours which is also taken as user-input.
 
-## K-means Clustering
+## K-Means Clustering
 Datasets are clustered successfully according to K-means clustering algorithm.
