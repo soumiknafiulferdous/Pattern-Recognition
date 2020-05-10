@@ -6,7 +6,7 @@ These classifiers are mainly used for data visualization, manipulation and plott
 Data is predicted successfully using the naive bayes algorithm.
 
 ## Minimum Distance to Class Mean Classifier
-It has classified the test dataset to it's desired classes according to the train dataset considering the minimum distance.
+It can classify the test dataset to it's desired classes according to the train dataset considering the minimum distance.
 
 ## Perceptron Algorithm
 This algorithm is used for batch processing (many at a time) and single processing (one at a time) and result is showed in a graph.
