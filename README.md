@@ -3,7 +3,7 @@
 These classifiers are mainly used for data visualization, manipulation and plotting. Several datasets are used for training and testing the models. Data are plotted in the graph to figure out the result of testing in comparison with training with the help of these algorithms.
 
 ## Naive Bayes Algorithm 
-Data is predicted successfully according to naive bayes algorithm.
+Data is predicted successfully using the naive bayes algorithm.
 
 ## Minimum Distance to Class Mean Classifier
 It has classified the test dataset to it's desired classes according to the train dataset considering the minimum distance.
