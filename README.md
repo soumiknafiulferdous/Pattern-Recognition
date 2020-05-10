@@ -12,7 +12,7 @@ It can classify the test dataset to it's desired classes according to the train 
 This algorithm is used for batch processing (many at a time) and single processing (one at a time) and result is showed in a graph.
 
 ## Minimum Error Rate Classifier
-A minimum error rate classifier for a two class problem has been designed considering they follow the normal distribution.
+A minimum error rate classifier for a two-class problem has been designed considering they follow the normal distribution.
 
 ## K-Nearest Neighbors (KNN) 
 Datasets are classified accurately based on this algorithm where user can input the nearest neighbor count so that dataset is classified according to the number of nearest neighbours which is also taken as user-input.
