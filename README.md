@@ -3,12 +3,15 @@
 These classifiers are mainly used for data visualization, manipulation and plotting. Several datasets are used for training and testing the models. Data are plotted in the graph to figure out the result of testing in comparison with training with the help of these algorithms.
 
 ## Naive Bayes Algorithm 
-Data is predicted successfully using the naive bayes algorithm.
+
+Naive Bayes algorithm for a given dataset is implemented to predict data. Data is predicted successfully using the Gaussian naive bayes algorithm.
 
 ## Minimum Distance to Class Mean Classifier
+
 It can classify the test dataset in it's desired classes according to the train dataset considering the minimum distance. At first, two-class set of prototypes have to be taken from 'train.txt' and 'test.txt' files. Then plot all sample points (train data) from both classes, but samples from the same class should have the same color and marker. Then, using a minimum distance classifier with respect to class-mean, classify the test data points by plotting them with the designated class-color but different marker. Use the Linear Discriminant Function for that. After that, draw the decision boundary between the two-classes and find accuracy. Legends can be added to the graph but legends should not cover the actual graph.
 
 ## Perceptron Algorithm
+
 The Perceptron algorithm is implemented for finding the weights of a Linear Discriminant function. This algorithm is used for batch processing (many at a time) and single processing (one at a time) and the result is showed in a graph.
 
 At first, take input from 'train.txt' file and plot all sample points from both classes. Samples
@@ -20,7 +23,7 @@ A minimum error rate classifier for a two-class problem has been designed consid
 
 ## K-Nearest Neighbors (KNN) 
 
-At first, determine parameter K = number of nearest neighbors and calculate the distance between the query-instance and all the training samples. Then, sort the distance and determine nearest neighbors based on the K-th minimum distance. After that, gather the category of the nearest neighbors and use simple majority of the category of nearest neighbors as the prediction value of the query instance. Then the dataset is classified accurately based on this algorithm where user can input the number of nearest neighbors and the dataset is classified according to that number.
+At the begining, determine parameter K = number of nearest neighbors and calculate the distance between the query-instance and all the training samples. Then, sort the distance and determine nearest neighbors based on the K-th minimum distance. After that, gather the category of the nearest neighbors and use simple majority of the category of nearest neighbors as the prediction value of the query instance. Then the dataset is classified accurately based on this algorithm where user can input the number of nearest neighbors and the dataset is classified according to that number.
 
 ## K-Means Clustering
 
