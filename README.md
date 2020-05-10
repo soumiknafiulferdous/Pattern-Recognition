@@ -4,7 +4,7 @@ These classifiers are mainly used for data visualization, manipulation and plott
 
 ## Naive Bayes Algorithm 
 
-Naive Bayes algorithm for a given dataset is implemented to predict data by assuming a Gaussian distribution. The Gaussian (or Normal distribution) is efficinet because the only need is to estimate the mean and the standard deviation from the training data. 
+Naive Bayes algorithm for a given dataset is implemented to predict data by assuming a Gaussian distribution. The Gaussian (or normal distribution) is efficient because the only need is to estimate the mean and the standard deviation from the training data. 
 
 First of all, calculate the probabilities for input values for each class using a frequency. With real-valued inputs, calculate the mean and standard deviation of input values (x) for each class to summarize the distribution. This means that in addition to the probabilities for each class, store the mean and standard deviations for each input variable for each class. After that, calculate the standard deviation using it's equation. When making predictions, these parameters can be plugged into the Gaussian PDF with a new input for the variable and in return the Gaussian PDF will provide an estimate of the probability of that new input value for that class. Then plug in the probabilities into the equation above to make predictions with real-valued inputs. Finally, the data will be predicted successfully using the Gaussian naive bayes algorithm.
 
