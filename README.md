@@ -15,7 +15,7 @@ This algorithm is used for batch processing (many at a time) and single processi
 A minimum error rate classifier for a two-class problem has been designed considering they follow the normal distribution.
 
 ## K-Nearest Neighbors (KNN) 
-Datasets are classified accurately based on this algorithm where user can input the nearest neighbor count so that dataset is classified according to the number of nearest neighbours which is also taken as user-input.
+Dataset is classified accurately based on this algorithm where user can input the number of nearest neighbors and the dataset is classified according to that number.
 
 ## K-Means Clustering
-Datasets are clustered successfully according to K-means clustering algorithm.
+Dataset is clustered successfully according to K-means clustering algorithm.
