@@ -40,13 +40,13 @@ Output:
 
 A minimum error rate classifier for a two-class problem has been designed considering they follow the normal distribution. At first, classify the sample points from 'test.txt' and the classified samples should have different colored markers according to the assigned class label. Then draw a figure which should include the corresponding probability distribution function along with its contour. At last, draw the decision boundary. Here, library function is not used for calculating values from normal distribution. For classified samples, different colored markers are used according to the assigned class label. 
 
-Output:
+Output of Plot 1:
 
 ![MinError 1](https://user-images.githubusercontent.com/30154496/82357159-86400a00-9a26-11ea-95b4-5a254571aa6a.jpg)
 
+Output of Plot 2:
 
 ![MinError 2](https://user-images.githubusercontent.com/30154496/82357162-86d8a080-9a26-11ea-9dff-4acfe50ff3e4.jpg)
-
 
 ![MinError 3](https://user-images.githubusercontent.com/30154496/82357164-87713700-9a26-11ea-8bfa-93aa8a488552.jpg)
 
