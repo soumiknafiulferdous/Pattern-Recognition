@@ -1,6 +1,6 @@
 # Pattern Recognition
 
-These classifiers are mainly used for data visualization and plotting. Several datasets are used for training and testing the models. Data are plotted in the graph to figure out the result of testing in comparison with training with the help of these clustering algorithms.
+These classifiers are mainly used for data prediction, visualization and plotting. Several datasets are used for training and testing the models. Data are plotted in the graph to figure out the result of testing in comparison with training with the help of these clustering algorithms.
 
 ## Naive Bayes Algorithm 
 
