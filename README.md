@@ -2,13 +2,7 @@
 
 These classifiers are mainly used for data prediction, visualization and plotting. Several datasets are used for training and testing the models. Data are plotted in the graph to figure out the result of testing in comparison with training with the help of these clustering algorithms.
 
-## Naive Bayes Algorithm 
-
-Naive Bayes algorithm for a given dataset is implemented to predict data by assuming a Gaussian distribution. The Gaussian distribution (or normal distribution) is efficient because the only need is to estimate the mean and the standard deviation from the training data. 
-
-First of all, calculate the probabilities for input values for each class using a frequency. With real-valued inputs, calculate the mean and standard deviation of input values for each class to summarize the distribution. It means that, in addition to the probabilities for each class, store the mean and standard deviations for each input variable for each class. After that, calculate the standard deviation using it's equation. When making predictions, these parameters can be plugged into the Gaussian PDF with a new input for the variable and in return the Gaussian PDF will provide an estimation of the probability of that new input value for that class. Then plug-in the probabilities into the equation to make predictions with real-valued inputs.
-
-## Minimum Distance to Class Mean Classifier
+## 1. Minimum Distance to Class Mean Classifier
 
 It can classify the test dataset in it's desired classes according to the train dataset considering the minimum distance. At first, two-class set of prototypes have to be taken from 'train.txt' and 'test.txt' files. Then plot all sample points (train data) from both classes, but samples from the same class should have the same color and marker. Then, using a minimum distance classifier with respect to class-mean, classify the test data points by plotting them with the designated class-color but with different marker and use the Linear Discriminant Function for that. After that, draw the decision boundary between the two-classes and find accuracy. Legends can be added to the graph but legends should not cover the actual graph.
 
