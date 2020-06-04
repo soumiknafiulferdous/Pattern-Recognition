@@ -6,9 +6,14 @@ These classifiers are mainly used for data visualization and plotting. Several d
 
 It can classify the test dataset in it's desired classes according to the train dataset considering the minimum distance. At first, two-class set of prototypes have to be taken from 'train.txt' and 'test.txt' files. Then plot all sample points (train data) from both classes, but samples from the same class should have the same color and marker. Then, using a minimum distance classifier with respect to class-mean, classify the test data points by plotting them with the designated class-color but with different marker and use the Linear Discriminant Function for that. After that, draw the decision boundary between the two-classes and find accuracy. Legends can be added to the graph but legends should not cover the actual graph.
 
-Output:
+Output of Training:
 
 ![MinDis](https://user-images.githubusercontent.com/30154496/82357156-86400a00-9a26-11ea-9e7c-bc75efc97823.jpg)
+
+Output of Testing:
+
+![MinDis (2)](https://user-images.githubusercontent.com/30154496/83779116-5bec7e80-a6ad-11ea-85ac-0585422d9159.jpg)
+
 
 ## 2. Perceptron Algorithm
 
