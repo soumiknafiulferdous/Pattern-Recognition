@@ -2,7 +2,7 @@
 
 These classifiers are mainly used for data visualization and plotting. Several datasets are used for training and testing the models. Data are plotted in the graph to figure out the result of testing in comparison with training with the help of these clustering algorithms.
 
-## 1. Minimum Distance to Class Mean Classifier
+## 1. Minimum Distance to Class Mean Classifiers
 
 It can classify the test dataset in it's desired classes according to the train dataset considering the minimum distance. At first, two-class set of prototypes have to be taken from 'train.txt' and 'test.txt' files. Then plot all sample points (train data) from both classes, but samples from the same class should have the same color and marker. Then, using a minimum distance classifier with respect to class-mean, classify the test data points by plotting them with the designated class-color but with different marker and use the Linear Discriminant Function for that. After that, draw the decision boundary between the two-classes and find accuracy. Legends can be added to the graph but legends should not cover the actual graph.
 
